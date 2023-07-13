@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "markdown-to-jupyter"
+version = "0.1.0"
+description = ""
+authors = ["Oelin"]
+readme = "README.md"
+packages = [{include = "markdown_to_jupyter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nbformat = "^5.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
